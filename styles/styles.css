@@ -15,6 +15,9 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  /* padding: auto 72px; */
+  padding-right: 72px;
+  padding-left: 72px;
 }
 
 .btn {
@@ -31,6 +34,17 @@ body {
 
 .accent {
   background-color: #ff6f61;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
 }
 
 /* reference by tag name */
@@ -95,6 +109,8 @@ nav ul li a:hover {
 
 .hero_section {
   width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   height: 100vh;
   background: url("../assets/capadocia.jpg");
   background-size: cover;
@@ -105,6 +121,8 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  padding: 0;
 }
 .hero_text h1 {
   color: white;
@@ -117,4 +135,109 @@ nav ul li a:hover {
 .hero_text button {
   margin-top: 10px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* featured section */
+.feature_section {
+  margin: 36px auto;
+}
+
+.feature_card_container {
+  width: 100%;
+  margin: 8px auto;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.feature_card {
+  width: 360px;
+  height: 320px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  margin: 16px 0;
+}
+
+.feature_card img {
+  width: 100%;
+  height: 75%;
+  border-radius: 18px;
+}
+
+.feature_card_texts h4 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 8px;
+}
+
+/* explore section */
+.expolore_section {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.explore_section_left p {
+  width: 70%;
+}
+
+.expolore_section button {
+  margin: 0 auto;
+  padding: 12px 36px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* footer section */
+.footer_section {
+  display: flex;
+  gap: 16px;
+  background-color: #d3d3d3;
+}
+
+.footer_section div {
+  padding: 24px 0 24px 0;
+  width: 50%;
+}
+.footer_section div div {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  gap: 12px;
+}
+
+.footer_section input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.footer_section button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.footer_section ul {
+  list-style-type: none;
+}
+.footer_section ul li {
+  margin: 10px auto;
+}
+
+.footer_section a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer_section a:hover {
+  padding-bottom: 10px;
 }
