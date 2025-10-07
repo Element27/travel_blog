@@ -56,12 +56,21 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 
-nav h3 {
+nav div {
   color: #333;
   font-size: 16px;
   font-weight: 800;
+
+  display: flex;
+  align-items: center;
+}
+
+nav div h3 {
+  /* display: none; */
+  visibility: hidden;
 }
 
 nav ul {
@@ -80,6 +89,18 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
+@media screen and (min-width: 768px) {
+  nav {
+    flex-direction: row;
+  }
+
+  nav div h3 {
+    /* display: block; */
+    visibility: visible;
+  }
+}
+
 /* hero section */
 
 /* .hero_section {
@@ -173,6 +194,30 @@ nav ul li a:hover {
 .feature_card_texts h4 {
   font-family: "Playfair Display", serif;
   margin-bottom: 8px;
+}
+
+.add_new_blog {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border: 1px solid gray;
+  border-radius: 18px;
+
+  text-decoration: none;
+  color: black;
+  /* transition: 0.5s; */
+}
+
+.add_new_blog:hover {
+  box-shadow: 4px 4px 4px #333;
+  background-color: #ff6f6159;
+  /* transition: 0.5s; */
 }
 
 /* explore section */
