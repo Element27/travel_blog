@@ -1,0 +1,86 @@
+Variable
+ basic variables
+  integer/number
+  strings
+  boolean
+
+  undefined
+  null
+
+ reference variables
+  arrays / list
+  objects / dictionaries
+
+  enum
+  structs
+
+  DSA (Data Structures and Algorithm)
+
+Loops
+    for loops
+    while loops
+    do while loops
+
+    foreach
+    for in
+    for of
+    map
+
+
+Operators
+  conditional Operators
+    if
+    if else
+    else
+    switch
+  
+  arithmetic Operators  
+    +
+    -
+    /
+    *
+    %
+    **
+
+  Comparision Operators
+    >
+    <
+    ==
+    ===
+    >=
+    <=
+    !=
+    !
+    ||
+    &&
+
+    Bitwise
+      <-->
+
+Functions & Methods
+  Normal Functions
+  arrow functions 
+  anonymous functions
+  Call backs functions
+
+Promises/API
+    fetch
+    Promises
+    asynchromous programs
+    
+    ??Multithreading
+
+  Keywords
+    return
+    break
+    this
+
+
+
+Class
+  inheritance
+  Abstraction
+  Polymorphism
+  ??
+
+
