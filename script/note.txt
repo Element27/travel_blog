@@ -11,20 +11,11 @@ Variable
   arrays / list
   objects / dictionaries
 
-  enum
-  structs
+  enum fixed list of options friday | saturday | sunday
+  structs // customisation of data Structures {[], }
 
   DSA (Data Structures and Algorithm)
 
-Loops
-    for loops
-    while loops
-    do while loops
-
-    foreach
-    for in
-    for of
-    map
 
 
 Operators
@@ -57,6 +48,21 @@ Operators
     Bitwise
       <-->
 
+Loops
+    for loops
+    while loops
+    do while loops
+
+    map
+    reduce
+
+    foreach
+    for in
+    for of
+
+
+
+
 Functions & Methods
   Normal Functions
   arrow functions 
@@ -73,7 +79,7 @@ Promises/API
   Keywords
     return
     break
-    this
+    Math
 
 
 
@@ -82,5 +88,6 @@ Class
   Abstraction
   Polymorphism
   ??
+    this
 
 
