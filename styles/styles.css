@@ -177,6 +177,7 @@ nav ul li a:hover {
 .feature_card {
   width: 360px;
   height: 320px;
+  overflow-y: hidden;
 
   display: flex;
   flex-direction: column;
