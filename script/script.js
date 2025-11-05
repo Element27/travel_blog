@@ -8,6 +8,7 @@ const feature_card_container = document.getElementById(
 );
 
 // a map takes an existing array formats/modifies and return a new array that fits the format/modification. Does not affect the original array
+// 4bytes
 const all_feature_loc = data
   .map((item) => {
     // string literals allow be able to parse in dynamic values into a string.
