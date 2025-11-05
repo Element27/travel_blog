@@ -1,3 +1,7 @@
+// this is an example of import named exports
+
+
+
 import {sampleExpprt,anotherExpprt} from "./newScript.js";
 
 console.log("sampleExpprt", sampleExpprt)
@@ -16,7 +20,7 @@ const data = [
       "time": ""
     },
     "comments": [],
-    "likes": 0
+    // "likes": 100
   },
   {
     "id": "2",
@@ -30,7 +34,7 @@ const data = [
       "time": ""
     },
     "comments": [],
-    "likes": 0
+    // "likes": 25
   },
   {
     "id": "3",
@@ -44,7 +48,7 @@ const data = [
       "time": ""
     },
     "comments": [],
-    "likes": 0
+    // "likes": 54
   },
   {
     "id": "4",
@@ -58,7 +62,7 @@ const data = [
       "time": ""
     },
     "comments": [],
-    "likes": 0
+    // "likes": 11
   }
 ]
 
