@@ -50,7 +50,7 @@
 
       <div class="form_item_container">
         <label>Title</label>
-        <input type="text" />
+        <input type="text" id="title" />
       </div>
 
       <div class="form_item_container">
@@ -61,12 +61,17 @@
 
       <div class="form_item_container">
         <label>Blog Content</label>
-        <textarea minlength="10" resize="disabled" rows="4"></textarea>
+        <textarea
+          minlength="10"
+          resize="disabled"
+          rows="4"
+          id="blog"
+        ></textarea>
       </div>
 
       <div class="form_item_container">
         <label>Blog Content</label>
-        <select>
+        <select id="category">
           <option>Adventure</option>
           <option>Business</option>
           <option>Safari</option>
@@ -74,9 +79,15 @@
       </div>
 
       <div class="form_action_container">
-        <button class="btn primary">Publish</button>
+        <button class="btn primary" id="publish">Publish</button>
         <button class="btn accent">Save Draft</button>
       </div>
     </form>
+
+    <script src="script/addBlog.js" type="module"></script>
+    <!-- <script type="module">
+      import { v4 as uuidv4 } from "https://cdn.jsdelivr.net/npm/uuid@latest/+esm";
+      // You can now use uuidv4() to generate UUIDs
+    </script> -->
   </body>
 </html>
