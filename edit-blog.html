@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- external -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- internal -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/addBlog.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="container">
+      <div>
+        <span class="material-symbols-outlined"> flight_takeoff </span>
+        <h3>TRAVEL BLOG</h3>
+      </div>
+      <!-- unordered list -->
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#">Desinations</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><span class="material-symbols-outlined"> search </span></li>
+      </ul>
+    </nav>
+
+    <!-- form -->
+
+    <!-- CRUD    
+    Create : POST
+    Update : PUT
+
+    Read : GET
+    Delete : DELETE
+    -->
+
+    <!-- <form action="get"> -->
+    <!-- <form action="put"> -->
+    <!-- <form action="post"> -->
+    <form>
+      <h2>Write A Blog</h2>
+
+      <div class="form_item_container">
+        <label>Title</label>
+        <input type="text" id="title" />
+      </div>
+
+      <div class="form_item_container">
+        <label>Display Image</label>
+        <img src="./assets/img_placeholder.png" />
+        <input type="file" />
+      </div>
+
+      <div class="form_item_container">
+        <label>Blog Content</label>
+        <textarea
+          minlength="10"
+          resize="disabled"
+          rows="4"
+          id="blog"
+        ></textarea>
+      </div>
+
+      <div class="form_item_container">
+        <label>Blog Content</label>
+        <select id="category">
+          <option>Adventure</option>
+          <option>Business</option>
+          <option>Safari</option>
+        </select>
+      </div>
+
+      <div class="form_action_container">
+        <button class="btn primary" id="publish">Publish</button>
+        <button class="btn accent">Save Draft</button>
+      </div>
+    </form>
+
+    <script src="script/util.js" type="module"></script>
+    <script src="script/editBlog.js" type="module"></script>
+    <!-- <script type="module">
+      import { v4 as uuidv4 } from "https://cdn.jsdelivr.net/npm/uuid@latest/+esm";
+      // You can now use uuidv4() to generate UUIDs
+    </script> -->
+  </body>
+</html>

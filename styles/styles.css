@@ -176,7 +176,7 @@ nav ul li a:hover {
 
 .feature_card {
   width: 360px;
-  height: 320px;
+  height: 360px;
   overflow-y: hidden;
 
   display: flex;
@@ -193,10 +193,22 @@ min-height: 200px;
   border-radius: 18px;
 }
 
+.feature_card .edit{
+  color: green;
+  font-weight: 700;
+}
+
+.feature_card .delete{
+  color: red;
+  font-weight: 700;
+}
+
 .feature_card_texts h4 {
   font-family: "Playfair Display", serif;
   margin-bottom: 8px;
 }
+
+
 
 .add_new_blog {
   width: 100%;

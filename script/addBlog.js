@@ -13,8 +13,8 @@ import { v4 as uuidv4 } from "https://cdn.jsdelivr.net/npm/uuid@latest/+esm";
 
 // CRUD
 
-// Create
-// reading
+// Create ✔
+// reading 
 // update
 // delete
 
@@ -129,6 +129,9 @@ const save_data = (e) => {
   // we  stringify it to machine langauge when we save
   // we parse into plain language when we read
   //   parse and stringify
+
+  // routing from javascript
+  window.location.href = '/index.html'
 };
 
 publish_btn.addEventListener("click", (e) => {
